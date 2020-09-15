@@ -1,0 +1,208 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: black;
+}
+.header-container {
+  padding: 8px;
+  display: flex;
+  max-height: 50px;
+  background-color: rgb(0, 0, 0);
+  max-width: 100vw;
+}
+.header__logo {
+  max-height: 50px;
+  background-color: red;
+}
+.header__items ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  margin-bottom: 0;
+}
+.header__items ul > li:first-child{
+  background-color: rgb(255, 27, 27);
+  display: flex;
+  align-items: center;
+}
+.header__items ul > li > a {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  color: white;
+  transition: all 0.3s ease;
+}
+.header__items ul > li:hover {
+  background-color: rgb(255, 27, 27);
+  color: white;
+  text-decoration: none;
+}
+.header__items ul > li > a{
+  color: white;
+  text-decoration: none;
+}
+.home__image {
+  height: 500px;
+  background-position: center;
+  background-image: url("../assets/del-comic-al-mcu-the-avengers_4c2w.jpg");
+}
+.home__title {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.219);
+  color: white;
+  text-shadow: 0px 0px 15px black;
+  font-size: 32px;
+
+  padding-left: 10%;
+}
+.home__title > h1 {
+  padding-top: 50px;
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+.content {
+  background-color: black;
+  color: white;
+}
+
+.container__hero {
+  display: flex;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+.hero__text {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  min-width: 60vw;
+  margin-bottom: 35px;
+}
+.hero__text > h3 {
+  margin-top: 35px;
+  font-size: 42px;
+}
+.hero__text > .subtitle {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+.img__hero > img {
+  opacity: 0.65;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .header__logo {
+    max-height: 40px;
+    align-items: center;
+    display: flex;
+  }
+  .header__items ul{
+    align-items: center;
+  }
+  .header__items ul > li > a {
+    padding: 6px;
+  }
+  .container__hero {
+    flex-direction: column;
+  }
+  .escudos{
+      flex-direction: column;
+      align-items: center;
+  }
+}
+.adivinanza{
+    padding-bottom: 50px;
+    background-color: black;
+}
+.adivinanza > h2 {
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+.escudos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    max-width: 75vw;
+    margin: auto;
+  }
+ .escudo{
+     margin: 5px;
+     cursor: pointer;
+ } 
+.circulo-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: var(--escudo-color-1);
+  transition: all .3s ease;
+}
+.circulo-1:hover{
+    box-shadow: 0px 0px 20px rgb(9, 206, 255);
+}
+.circulo-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: var(--escudo-color-2);
+}
+.circulo-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--escudo-color-1);
+}
+.circulo-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--escudo-color-3);
+}
+.circulo-4 > p {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+.red {
+  --escudo-color-1: rgb(255, 0, 0);
+  --escudo-color-2: rgb(255, 0, 0);
+  --escudo-color-3: rgb(255, 0, 0);
+}
+
+.blue {
+  --escudo-color-1: rgb(31, 54, 255);
+  --escudo-color-2: rgb(31, 54, 255);
+  --escudo-color-3: rgb(31, 54, 255);
+}
+.white {
+  --escudo-color-1: rgb(255, 255, 255);
+  --escudo-color-2: rgb(255, 255, 255);
+  --escudo-color-3: rgb(255, 255, 255);
+}
+
+.pregunta{
+  max-width: 320px;
+}

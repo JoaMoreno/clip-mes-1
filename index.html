@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>UCM</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__items">
+        <ul>
+          <li>
+            <img
+              class="header__logo"
+              src="./assets/1200px-MarvelLogo.svg.webp"
+              alt=""
+            />
+          </li>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./heroes.html">Heroes</a></li>
+          <li><a href="https://www.marvel.com/">Ir a Marvel</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="home__image">
+      <div class="home__title">
+        <h1>UCM</h1>
+        <p>Universo cinematográfico de Marvel</p>
+      </div>
+    </div>
+    <div class="content">
+      <!-- CAP AMERICA -->
+      <div class="container__hero">
+        <div class="hero__text">
+          <h3>Capitán América</h3>
+          <p class="subtitle">El primer vengador</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+            sapiente incidunt pariatur sunt culpa quos assumenda tempora, nobis
+            inventore magnam perspiciatis, aperiam nulla vero officia
+            consectetur corporis est enim. Cupiditate!
+          </p>
+        </div>
+        <div class="img__hero">
+          <img src="./assets/Captain-America-1200x600.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ADIVINANZA -->
+    <div id="adivinanza" class="adivinanza">
+      <!-- Adivinanza 1 -->
+      <h2>¿A quién pertenece este escudo?</h2>
+      <div class="escudos">
+        <div class="escudo">
+          <div class="circulo-1 red">
+            <div class="circulo-2 white">
+              <div class="circulo-3 red">
+                <div class="circulo-4 blue">
+                  <p>★</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form id="form-1" class="pregunta mx-auto">
+          <p class="text-white text-center mt-3 mb-0">Intentos</p>
+          <p id="intentos" class="text-white text-center">4</p>
+          <p id="info" class="text-white text-center"></p>
+          <input
+            type="text"
+            class="form-control text-center"
+            id="respuesta"
+            required
+          />
+          <div class="d-flex justify-content-center">
+            <button id="comprobar" class="btn btn-dark px-5 mt-3" type="submit">Comprobar</button>
+          </div>
+        </form>
+      </div>
+      <!-- Adivinanza -->
+      <!-- <h2>¿Cuál es el escudo del capitán américa?</h2>
+      <div class="escudos">
+        <div id="escudo1" class="escudo">
+          <div class="circulo-1 white">
+            <div class="circulo-2 blue">
+              <div class="circulo-3 red">
+                <div class="circulo-4 blue">
+                  <p>✵</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="escudo2" class="escudo">
+          <div class="circulo-1 red">
+            <div class="circulo-2 white">
+              <div class="circulo-3 red">
+                <div class="circulo-4 blue">
+                  <p>★</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="escudo3" class="escudo">
+          <div class="circulo-1 blue">
+            <div class="circulo-2 white">
+              <div class="circulo-3 red">
+                <div class="circulo-4 blue">
+                  <p>✱</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

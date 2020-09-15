@@ -1,0 +1,50 @@
+.descripcion{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.descripcion  > p{
+    padding: 45px;
+    max-width: 75vw;
+    text-shadow: 0 0 10px black;
+}
+.bg-peliculas {
+    background-image: url('../assets/maxresdefault.jpg');
+}
+.clasificacion {
+    padding: 25px;
+}
+.clasificacion > h1{
+    padding: 5px;
+}
+.peliculas {
+    width: 100%;
+    padding: 25px;
+}
+
+th{
+    text-align: start;
+    padding-bottom: 25px;
+    font-size: 1em;
+}
+td{
+    padding: 5px;
+}
+.form-container{
+    padding: 0 10% !important;
+    max-width: 75vw;
+}
+@media screen and (max-width: 480px) {
+    .peliculas {
+        padding: 5px;
+    }
+    .clasificacion{
+        padding: 5px;
+    }
+    .descripcion > p{
+        padding: 25px;
+        max-width: 100vw;
+    }
+    .form-container{
+        padding: 0 0;
+        max-width: 100vw;
+    }
+}
