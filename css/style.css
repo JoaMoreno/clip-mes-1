@@ -149,6 +149,7 @@ body{
   border-radius: 50%;
   background-color: var(--escudo-color-1);
   transition: all .3s ease;
+  overflow: hidden;
 }
 .circulo-1:hover{
     box-shadow: 0px 0px 20px rgb(9, 206, 255);
@@ -161,6 +162,7 @@ body{
   height: 110px;
   border-radius: 50%;
   background-color: var(--escudo-color-2);
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.6), 0px -10px 10px 5px rgba(255, 255, 255, 0.3);
 }
 .circulo-3 {
   display: flex;
@@ -170,6 +172,7 @@ body{
   height: 80px;
   border-radius: 50%;
   background-color: var(--escudo-color-1);
+  box-shadow: 0px 10px 10px 15px rgba(0, 0, 0, 0.6), 0px -10px 10px 5px rgb(255, 255, 255);
 }
 .circulo-4 {
   display: flex;
@@ -179,11 +182,13 @@ body{
   height: 50px;
   border-radius: 50%;
   background-color: var(--escudo-color-3);
+  box-shadow: 0px 10px 10px 15px rgba(0, 0, 0, 0.6), inset 0px 10px 10px rgba(255, 255, 255, 0.3);
 }
 .circulo-4 > p {
   color: white;
   font-size: 45px;
   margin-bottom: 0;
+  text-shadow: 0px 2px2px rgba(0, 0, 0, 0.2), 0px -1px 4px rgba(255, 255, 255, 0.3);
 }
 
 .red {
